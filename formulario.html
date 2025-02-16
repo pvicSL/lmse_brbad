@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Este documento HTML contiene el formulario de la campaña corporativa.">
+        <meta name="author" content="Patricia Victoria Sanz Lopez">
+        <link rel="icon" href="img/icon.png" type="image/png" alt="icono del sitio web">
+        <title>Breaking Bad - Formulario</title>
+        <link rel="stylesheet" href="CSS/style.css" type="text/css">
+
+    </head>
+
+    <body class="body-form">
+
+        <!-- Contenedor del formulario -->
+        <div class="form-format">
+            <!-- Formulario -->
+            <form name="formubreakingbad" action="mailto:raul.rodriguez@proeducaglobal.com" method="post" enctype="multipart/form-data" class="texto-general">
+
+                <h1 class="form-title">Breaking Bad - Que comience el juego!</h1>
+                    <fieldset>
+
+                        <fieldset>
+                            <!-- Datos personales -->
+                            <legend>Datos Personales</legend>
+                                <p class="form-tabulacion">
+                                     <label>Nombre: </label> 
+                                        <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
+            
+                                    <label>Apellidos: </label> 
+                                        <input type="text" name="apellidos" placeholder="Escribe tus apellidos" required>
+                                </p>
+
+                                <p class="form-tabulacion">
+                                    <br>
+                                        <label for="">Dirección postal:</label> 
+                                            <br>
+                                                <input id="input-long" type="text" name="direccionpostalcalle" placeholder="Calle, n.º, piso... ">
+                                            <br>
+                                                <input type="text" name="direccionpostalciudad" placeholder="Localidad">
+                                                <input type="text" name="direccionpostalCP" placeholder="Código Postal" size=10 maxlength="5">
+                                </p>
+
+                                <!-- DNI -->
+                                <p class="form-tabulacion">
+                                    <label>DNI: </label> 
+                                        <input type="text" name="DNI" placeholder="Número de DNI con la letra">
+                                </p>
+
+                                <!-- EMAIL -->
+                                <p class="form-tabulacion">
+                                    <label>Correo electrónico:</label>
+                                        <input id="input-long" type="email" name="useremail" placeholder="correo@ejemplo.es" required>
+                                </p>
+
+                                <!-- GENERO -->
+                                <p class="form-tabulacion">
+                                    <label>Genero: </label> 
+                                        <br>
+                                            <input id="genderbuttons" type="radio" name="genero" value="Hombre">Hombre
+                                        <br>
+                                            <input id="genderbuttons" type="radio" name="genero" value="Mujer">Mujer
+                                </p>
+                                        
+                                <!-- FECH.NAC -->
+                                <p class="form-tabulacion">
+                                    <label>Fecha de nacimiento: </label>
+                                        <br>
+                                            <input type="date" name="fechanacimiento" id="fechanac" max="2007-12-31">
+                                </p>
+                        </fieldset>
+
+                        <!-- SELECTOR PERSONAJES -->
+                        <fieldset>
+                            <legend>Personaje</legend>
+                                <p class="form-tabulacion">
+                                    <select name="personajes" id="listapersonajes">
+                                        <option value="0" selected>Elige un personaje</option>
+                                        <option value="1">Jessie Pinkman</option>
+                                        <option value="2">Walter White</option>
+                                        <option value="3">Saul Goodman</option>
+                                        <option value="4">Gustavo Frink</option>
+                                        <option value="5">Pollos Hermanos</option>
+                                        <option value="6">Otros personajes</option>
+                                    </select>
+                                </p>
+                        </fieldset>
+
+                        <!-- CAJA COMENTARIOS -->
+                        <fieldset>
+                            <legend>Comentarios</legend>
+                                <p class="form-tabulacion">
+                                    <textarea id="input-comment" name="comentarios" rows="10" 
+                                    placeholder="Escribe tus comentarios aqui" 
+                                    maxlength="500"></textarea>
+                                </p>
+                        </fieldset>
+
+                        <!-- BOTONES SEND-RESET-ADDFILES -->
+                        <p class="form-tabulacion">
+                            <input id="submit-button" type="file" name="addfiles" value="prueba" placeholder="No se ha adjuntado nongún archivo">
+                            <input id="submit-button" type="reset" name="deleteform" value="Borrar">
+                            <input id="submit-button" type="submit" name="submitform" value="Enviar">
+                        </p>
+
+                    </fieldset>
+
+            </form>
+
+        </div>
+
+    </body>
+    
+</html>

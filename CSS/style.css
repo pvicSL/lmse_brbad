@@ -1,0 +1,468 @@
+
+/*HOJA DE ESTILOS PARA PROYECTO BREAKING BAD*/
+
+/* Tipografía para el proyecto */
+@font-face {
+  font-family: "Breaking Bad";
+  src: url("../Breaking Bad.ttf");
+}
+
+.texto-general {
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+}
+
+
+/* CLASES E ID PARA BODY DE LOS HTML */
+body {
+    background-size: cover;
+}
+
+.body-index {
+  background-image: url("../img/fondo.jpg");
+}
+
+.body-form {
+  background-image: url("../img/fondo.jpg");
+  font-family: Helvetica, sans-serif;
+}
+
+.body-tabla {
+  background-color: #627124;
+  font-family: Helvetica, sans-serif;
+}
+
+
+/* CLASES PARA INDEX.HTML */
+.logo-serie {
+  background-image: url("../img/logo.PNG");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.white-quote {
+  font-family: "Breaking Bad";
+  font-size: 44px;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  margin-top: 2rem;
+  margin-bottom: 2.8rem;
+}
+
+.img-poster-resize {
+  width: 700px;
+  height: 300px;
+}
+
+.poster-img {
+  background-size: cover;
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  border: brown 10px outset;
+  border-radius: 22px; 
+}
+
+
+
+/*FORMATOS , CLASES E ID PARA EL FORMULARIO */
+
+fieldset {
+  border: #ffffff 4px solid;
+  border-radius: 10px;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+input, select {
+  padding: 8px; 
+  border: #0c3e11 solid 3px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+legend {
+  font-size: 14px;
+  padding: 10px;
+}
+
+label {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/*FORMATO GENERAL PARA LA TABLA*/
+.form-format {
+  display: block;
+  margin: auto;
+  width: 50%;
+  min-width: 750px !important;
+  font-size: 14px;
+  color:rgb(255, 255, 255);
+  border: #0c3e11 10px solid;
+  border-radius: 22px; 
+  background-color: #808080;
+  padding: 2rem;
+}
+
+.form-title {
+  font-size: 44px;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  margin-top: 2rem;
+  margin-bottom: 2.8rem;
+}
+
+.form-tabulacion {
+  margin-left: 1em;
+  margin-top: 5px;
+  margin-right: 2em;
+  padding-right: 1em;
+}
+
+#genderbuttons {
+  margin-left: 3em;
+  margin-top: 1em;
+}
+
+#input-long {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#input-comment {
+  width: 100%; 
+  border: #0c3e11 solid 3px;
+  border-radius: 8px; 
+}
+
+#submit-button {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #0c3e11;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+
+/* FORMATO GENERAL PARA LA TABLA */
+
+ table {
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #b9c977;
+ }
+
+ td {
+  border: 10px solid #2b2d23;
+  background-color: #2b2d23;
+  color: #2b2d23;
+  width: 77px;
+  min-width: 77px;
+  height: 70px;
+  min-height: 70px; 
+  text-align: center;
+ }
+
+ /*LOGOTIPO DE LA SERIE SOBRE LA TABLA*/
+ .logo-sobretabla {
+  background-image: url("../img/cabecera.png");
+  background-size: cover;
+  width: 450px;
+  height: 220px;
+  margin: auto;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+ /*CONTENEDOR DE LA TABLA*/
+ .margenes-tabla {
+  margin-top: 2em;
+ }
+
+ /*CONTENEDOR PARA TABLA INFERIOR*/
+ .table-container-bottom {
+  margin-top: 3em;
+  margin-bottom: 3em;
+ }
+
+
+ /*FORMATO TEXTOS TABLA*/
+ .iniciales {
+  font-weight: bolder;
+  margin-top: -20px;
+  font-size: 35px;
+  }
+  
+  .iniciales-low {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: -2.4em;
+    }
+  
+  .parrag-table {
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    padding-bottom: 0.5em;
+  }
+
+ /*FONDOS DE COLORES PARA LAS CELDAS*/
+ .td-lima {
+  background-color: #b8d929;
+ }
+
+ .td-limaclaro {
+  background-color: #b9c977;
+ }
+
+ .td-pistacho {
+  background-color: #818e50;
+ }
+
+ .td-gris {
+  background-color: #bbc49c;
+ }
+
+ .td-blanco {
+  background-color: #f1f9c7;
+ }
+
+ .td-limoncello {
+  background-color: #d3e875;
+ }
+
+ .td-militronchi {
+  background-color: #637222;
+ }
+
+ .td-jalapeno {
+  background-color: #89a418;
+ }
+
+ .td-mostaza {
+  background-color: #c1c533;
+ }
+
+ .td-marie {
+  background-color: #ab8fcc;
+ }
+
+/* CELDAS ESPECIALES CON IMAGEN Y TEXTO DE PERSONAJES*/ 
+#td-img-white {
+  background-image: url(../img/walterwhite.png);
+  margin: auto;
+  margin-right: -10px;
+  background-size: 70px 70px;
+  background-position: top;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+}
+
+#td-img-skyler {
+  background-image: url(../img/skylerwhite.png);
+  margin: auto;
+  margin-right: -10px;
+  background-size: 70px 70px;
+  background-position: bottom;
+  background-position-y: 75px;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+}
+
+#td-img-marie {
+  background-image: url(../img/marieschrader.png);
+  margin: auto;
+  margin-right: -10px;
+  background-size: 70px 70px;
+  background-position: bottom;
+  background-position-y: 75px;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+}
+
+#td-img-hank {
+  background-image: url(../img/hankschrader.png);
+  margin: auto;
+  background-size: 78px 156px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#td-img-hector {
+  background-image: url(../img/hectorsalamanca.png);
+  margin: auto;
+  margin-right: -10px;
+  background-size: 70px 70px;
+  background-position: bottom;
+  background-position-y: 75px;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+}
+
+#td-img-jessie {
+  background-image: url(../img/jessiepinkman.png);
+  margin: auto;
+  margin-right: -10px;
+  background-size: 70px 75px;
+  background-position: bottom;
+  background-position-y: 80px;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+}
+
+#td-img-saul {
+  background-image: url(../img/saulgoodman.png);
+  margin: auto;
+  margin-right: -10px;
+  background-size: 75px 75px;
+  background-position: bottom;
+  background-position-y: 75px;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+}
+
+#td-img-badger {
+  background-image: url(../img/badger.png);
+  margin: auto;
+  margin-right: -10px;
+  background-size: 70px 70px;
+  background-position: bottom;
+  background-position-y: 75px;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+}
+
+#td-img-tuco {
+  background-image: url(../img/tucosalamanca.png);
+  margin: auto;
+  margin-right: -10px;
+  background-size: 70px 70px;
+  background-position: bottom;
+  background-position-y: 75px;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+}
+
+#td-img-gustavo {
+  background-image: url(../img/gustavofrink.png);
+  margin: auto;
+  margin-right: -10px;
+  background-size: 70px 70px;
+  background-position: bottom;
+  background-position-y: 75px;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+}
+
+#td-img-mike {
+  background-image: url(../img/mike.png);
+  margin: auto;
+  margin-right: -10px;
+  background-size: 70px 70px;
+  background-position: bottom;
+  background-position-y: 75px;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+}
+
+#td-img-gale {
+  background-image: url(../img/gale.png);
+  margin: auto;
+  margin-right: -10px;
+  background-size: 65px 65px;
+  background-position: bottom;
+  background-position-y: 80px;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+}
+
+/*IMAGENES TABLA INFERIOR (COLOR MOSTAZA)*/
+#td-img-caravana {
+  background-image: url(../img/bus.png);
+  margin: auto;
+  background-size: 72px 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#td-img-bolsa {
+  background-image: url(../img/cristal.png);
+  margin: auto;
+  background-size: 72px 65px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#td-img-pizza {
+  background-image: url(../img/pizza.png);
+  margin: auto;
+  background-size: 72px 65px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#td-img-pistola {
+  background-image: url(../img/pistola.png);
+  margin: auto;
+  background-size: 72px 65px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#td-img-calzon {
+  background-image: url(../img/calzoncillos.png);
+  margin: auto;
+  background-size: 72px 65px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#td-img-pocima {
+  background-image: url(../img/pocima.png);
+  margin: auto;
+  background-size: 72px 65px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#td-img-mascara {
+  background-image: url(../img/mascara.png);
+  margin: auto;
+  background-size: 72px 65px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#td-img-movil {
+  background-image: url(../img/movil.png);
+  margin: auto;
+  background-size: 72px 65px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#td-img-plato {
+  background-image: url(../img/plato.png);
+  margin: auto;
+  background-size: 72px 65px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#td-img-mosca {
+  background-image: url(../img/mosca.png);
+  margin: auto;
+  background-size: 72px 65px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
